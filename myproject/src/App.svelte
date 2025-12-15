@@ -13,6 +13,8 @@ import Header from "./components/ders1/Header.svelte";
   import Event3Buttton from "./components/ders6-events-inline/Event3Buttton.svelte";
   import Event3Dispatcher from "./components/ders6-events-inline/Event3Dispatcher.svelte";
   import EventsInline from "./components/ders6-events-inline/Events1Inline.svelte";
+  import EventForwarding from "./components/ders7-Event-Forwarding/EventForwarding.svelte";
+  import EventForwardOrnek2 from "./components/event-forward-ornek-2/EventForwardOrnek-2.svelte";
   const changeMode = (event) => {
       event.detail.yeniMode;
   };
@@ -35,6 +37,8 @@ import Header from "./components/ders1/Header.svelte";
 <EventsInline/>
 <Event2Modifiers/>
 <Event3Dispatcher/>
+<EventForwarding/>
+<EventForwardOrnek2/>
 
 <style>
 </style>

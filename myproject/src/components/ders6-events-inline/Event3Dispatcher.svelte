@@ -3,13 +3,17 @@
     let mode = 'light ';
 
     const changeMode = (event) => {
-        mode = event.detail.yeniMode;
+        if (event.detail.yeniMode) {
+            mode = event.detail.yeniMode;
+        } else {
+            mode = 'light';
+        }
     }
 
 </script>
 
-<div class={mode === 'light' ? 'dark' : 'light'}>
-    <Event3Button on:mode={changeMode} />
+<div class={mode}>
+    <Event3Button {mode} on:mode={changeMode} />
 </div>
 
 <style>
@@ -17,6 +21,11 @@
 div {
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 .light {
     background-color: #f5f5f5;
