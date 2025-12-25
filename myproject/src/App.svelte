@@ -13,8 +13,13 @@ import Header from "./components/ders1/Header.svelte";
   import Event3Buttton from "./components/ders6-events-inline/Event3Buttton.svelte";
   import Event3Dispatcher from "./components/ders6-events-inline/Event3Dispatcher.svelte";
   import EventsInline from "./components/ders6-events-inline/Events1Inline.svelte";
-  import EventForwarding from "./components/ders7-Event-Forwarding/EventForwarding.svelte";
-  import EventForwardOrnek2 from "./components/event-forward-ornek-2/EventForwardOrnek-2.svelte";
+  import EventForwarding from "./components/ders7-event-forwarding/EventForwarding.svelte";
+  import EventForwardOrnek2 from "./components/ders7-exception-event-forward-ornek-2/EventForwardOrnek-2.svelte";
+  import Bind from "./components/ders8-bind-text-inputs/Bind.svelte";
+  import BindCheckbox from "./components/ders8-bind-text-inputs/BindCheckbox.svelte";
+  import BindGroup from "./components/ders8-bind-text-inputs/BindGroup.svelte";
+  import BindSelect from "./components/ders8-bind-text-inputs/BindSelect.svelte";
+  import BindTextarea from "./components/ders8-bind-text-inputs/BindTextarea.svelte";
   const changeMode = (event) => {
       event.detail.yeniMode;
   };
@@ -39,6 +44,11 @@ import Header from "./components/ders1/Header.svelte";
 <Event3Dispatcher/>
 <EventForwarding/>
 <EventForwardOrnek2/>
+<Bind/>
+<BindCheckbox/>
+<BindGroup/>
+<BindTextarea/>
+<BindSelect/>
 
 <style>
 </style>
