@@ -2,6 +2,7 @@
   import Footer from "./components/ders1/Footer.svelte";
 import Header from "./components/ders1/Header.svelte";
   import Welcome from "./components/ders1/Welcome.svelte";
+  import Class from "./components/ders10-class/Class.svelte";
   import ArttrAzaltButonlar from "./components/ders2-propslar/ArttırAzaltButonları.svelte";
   import CardBilgi from "./components/ders3-spread-props/CardBilgi.svelte";
   import Excample from "./components/ders4-reactivity-kullanım/Excample.svelte";
@@ -20,6 +21,8 @@ import Header from "./components/ders1/Header.svelte";
   import BindGroup from "./components/ders8-bind-text-inputs/BindGroup.svelte";
   import BindSelect from "./components/ders8-bind-text-inputs/BindSelect.svelte";
   import BindTextarea from "./components/ders8-bind-text-inputs/BindTextarea.svelte";
+  import Exception from "./components/ders9-exception-store-uygulama/Exception.svelte";
+  import Storernegi from "./components/ders9-store-srnek/StoreÖrnegi.svelte";
   const changeMode = (event) => {
       event.detail.yeniMode;
   };
@@ -49,6 +52,9 @@ import Header from "./components/ders1/Header.svelte";
 <BindGroup/>
 <BindTextarea/>
 <BindSelect/>
+<Storernegi/>
+<Exception/>
+<Class/>
 
 <style>
 </style>
