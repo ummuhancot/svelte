@@ -3,6 +3,9 @@
 import Header from "./components/ders1/Header.svelte";
   import Welcome from "./components/ders1/Welcome.svelte";
   import Class from "./components/ders10-class/Class.svelte";
+  import Card from "./components/ders11-slot/Card.svelte";
+  import Slot from "./components/ders11-slot/Slot.svelte";
+  import DataFetch from "./components/ders12-life-cycle/DataFetch.svelte";
   import ArttrAzaltButonlar from "./components/ders2-propslar/ArttırAzaltButonları.svelte";
   import CardBilgi from "./components/ders3-spread-props/CardBilgi.svelte";
   import Excample from "./components/ders4-reactivity-kullanım/Excample.svelte";
@@ -55,6 +58,8 @@ import Header from "./components/ders1/Header.svelte";
 <Storernegi/>
 <Exception/>
 <Class/>
+<Slot/>
+<DataFetch/>
 
 <style>
 </style>
